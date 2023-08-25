@@ -1,8 +1,8 @@
 import "./App.css";
-import ImageCarousel from "./ImageCarousel";
+import Todo from "./TodoApp";
 
 function App() {
-  return <ImageCarousel />;
+  return <Todo />;
 }
 
 export default App;
