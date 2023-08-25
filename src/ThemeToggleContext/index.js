@@ -1,6 +1,6 @@
 import React from "react";
 import { ThemeProvider } from "./ThemeContext";
-import ToggleThemeParent from "./Component/ToggleThemeParent";
+import ToggleThemeParent from "./Components/ToggleThemeParent";
 
 const ToggleTheme = () => {
   return (

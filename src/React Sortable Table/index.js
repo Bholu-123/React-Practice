@@ -1,4 +1,4 @@
-import Table from "./Component/Table";
+import Table from "./Components/Table";
 import "./index.css";
 import dataTwo from "./Data/Data2.json";
 import dataOne from "./Data/Data1.json";

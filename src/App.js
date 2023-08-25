@@ -1,9 +1,9 @@
 import "./App.css";
-import ReactSortableTable from "./React Sortable Table";
+import TicTacToe from "./TicTacToe";
 // import ToggleTheme from "./ThemeToggleContext";
 
 function App() {
-  return <ReactSortableTable />;
+  return <TicTacToe />;
 }
 
 export default App;
