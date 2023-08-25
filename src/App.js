@@ -1,9 +1,8 @@
 import "./App.css";
-import TicTacToe from "./TicTacToe";
-// import ToggleTheme from "./ThemeToggleContext";
+import ImageCarousel from "./ImageCarousel";
 
 function App() {
-  return <TicTacToe />;
+  return <ImageCarousel />;
 }
 
 export default App;

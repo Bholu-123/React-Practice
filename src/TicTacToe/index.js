@@ -35,7 +35,6 @@ const TicTacToe = () => {
     const isDraw = updatedBoard.every(
       (value) => value === "X" || value === "O"
     );
-    console.log("+++++isiisis", isDraw);
 
     if (isDraw) {
       resetBoard();
@@ -71,8 +70,6 @@ const TicTacToe = () => {
       }
     }
   };
-
-  const checkForDraw = () => {};
 
   const resetBoard = () => {
     setGameOver(false);
