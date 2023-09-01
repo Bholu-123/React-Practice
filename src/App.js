@@ -1,8 +1,9 @@
 import "./App.css";
-import Todo from "./TodoApp";
+
+import ReduxCart from "./React Cart/Index";
 
 function App() {
-  return <Todo />;
+  return <ReduxCart />;
 }
 
 export default App;
