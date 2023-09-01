@@ -1,9 +1,8 @@
 import "./App.css";
-
-import ReduxCart from "./React Cart/Index";
+import TourShow from "./TourShow/Index";
 
 function App() {
-  return <ReduxCart />;
+  return <TourShow />;
 }
 
 export default App;
