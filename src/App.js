@@ -1,8 +1,8 @@
 import "./App.css";
-import ReviewCard from "./ReviewCard/Index";
+import QuestionAccordian from "./QuestionAccordian/Index";
 
 function App() {
-  return <ReviewCard />;
+  return <QuestionAccordian />;
 }
 
 export default App;
