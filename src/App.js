@@ -1,8 +1,8 @@
 import "./App.css";
-import TourShow from "./TourShow/Index";
+import ReviewCard from "./ReviewCard/Index";
 
 function App() {
-  return <TourShow />;
+  return <ReviewCard />;
 }
 
 export default App;
