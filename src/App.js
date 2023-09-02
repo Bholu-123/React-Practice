@@ -1,8 +1,9 @@
 import "./App.css";
-import ImageCarouselTwo from "./ImageCarouselTwo/Index";
+
+import MenuTab from "./MenuTab/Index";
 
 function App() {
-  return <ImageCarouselTwo />;
+  return <MenuTab />;
 }
 
 export default App;
