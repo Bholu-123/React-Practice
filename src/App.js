@@ -1,8 +1,8 @@
 import "./App.css";
-import QuestionAccordian from "./QuestionAccordian/Index";
+import ImageCarouselTwo from "./ImageCarouselTwo/Index";
 
 function App() {
-  return <QuestionAccordian />;
+  return <ImageCarouselTwo />;
 }
 
 export default App;
