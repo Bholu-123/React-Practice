@@ -1,8 +1,8 @@
 import "./App.css";
-import TypeheadSearch from "./TypeheadSearchbox/Index";
+import ReactInfiniteScroll from "./InfiniteScroll/Index";
 
 function App() {
-  return <TypeheadSearch />;
+  return <ReactInfiniteScroll />;
 }
 
 export default App;
