@@ -1,9 +1,8 @@
 import "./App.css";
-
-import MenuTab from "./MenuTab/Index";
+import TypeheadSearch from "./TypeheadSearchbox/Index";
 
 function App() {
-  return <MenuTab />;
+  return <TypeheadSearch />;
 }
 
 export default App;
