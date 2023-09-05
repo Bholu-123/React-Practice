@@ -1,10 +1,10 @@
 import "./App.css";
-import ReactPagination from "./ReactPagination/Index";
+import ReactEmiCalculator from "./ReactEmiCalculator/Index";
 
 function App() {
   return (
     <>
-      <ReactPagination />
+      <ReactEmiCalculator />
     </>
   );
 }
