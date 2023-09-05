@@ -11,6 +11,3 @@ const ImageCarousel = () => {
 };
 
 export default ImageCarousel;
-
-// export default const ImageCarousel= ()  =>{
-// ;

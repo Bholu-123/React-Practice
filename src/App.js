@@ -1,10 +1,10 @@
 import "./App.css";
-import FileExplorer from "./FileExplorer";
+import ReactPagination from "./ReactPagination/Index";
 
 function App() {
   return (
     <>
-      <FileExplorer />
+      <ReactPagination />
     </>
   );
 }
