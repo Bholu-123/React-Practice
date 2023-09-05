@@ -1,8 +1,13 @@
 import "./App.css";
-import ReactInfiniteScroll from "./InfiniteScroll/Index";
+
+import ReactProgressBar from "./ReactProgressbar/Index";
 
 function App() {
-  return <ReactInfiniteScroll />;
+  return (
+    <>
+      <ReactProgressBar />
+    </>
+  );
 }
 
 export default App;
