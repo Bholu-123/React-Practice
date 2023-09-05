@@ -1,11 +1,10 @@
 import "./App.css";
-
-import ReactProgressBar from "./ReactProgressbar/Index";
+import FileExplorer from "./FileExplorer";
 
 function App() {
   return (
     <>
-      <ReactProgressBar />
+      <FileExplorer />
     </>
   );
 }

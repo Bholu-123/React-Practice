@@ -21,9 +21,30 @@ const useTraverseData = () => {
     return { ...tree, items: latestNode };
   };
 
-  const deleteNode = () => {}; // Do it Yourself
+  const deleteNode = function (tree, nodeId) {
+    if (tree.id === nodeId) {
+      return null;
+    }
 
-  const renameNode = () => {}; // Do it Yourself
+    const updatedItems = tree.items
+      .map((item) => deleteNode(item, nodeId))
+      .filter((item) => item !== null);
+
+    return { ...tree, items: updatedItems };
+  };
+
+  const renameNode = (tree, folderId, item, isFolder) => {
+    console.log(folderId, item, isFolder);
+    if (tree.id === folderId) {
+      return { ...tree, name: item };
+    }
+
+    const updatedItems = tree.items.map((node) =>
+      renameNode(node, folderId, item, isFolder)
+    );
+
+    return { ...tree, items: updatedItems };
+  };
 
   return { insertNode, deleteNode, renameNode };
 };

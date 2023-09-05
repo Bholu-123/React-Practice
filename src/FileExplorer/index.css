@@ -44,3 +44,23 @@
   display: flex;
   flex-direction: column;
 }
+
+.edit-delete {
+  display: flex;
+  gap: 8px;
+}
+
+.edit-delete svg {
+  cursor: pointer;
+}
+
+.file-container {
+  display: flex;
+  justify-self: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.file-container svg {
+  cursor: pointer;
+}
